@@ -10131,11 +10131,11 @@ img::-moz-selection {
     display: block;
     width: 180px;
     height: 56px;
-    background: url("./assets/img/contact_up.svg") no-repeat;
+    background: url("../assets/img/contact_up.svg") no-repeat;
     cursor: pointer;
   }
   #mainNav .contact-button:hover {
-    background: url("./assets/img/contact_down.svg") no-repeat;
+    background: url("../assets/img/contact_down.svg") no-repeat;
   }
 }
 header.masthead {
