@@ -10198,6 +10198,43 @@ header.masthead .demo-button:hover {
     margin-bottom: 4rem;
   }
 }
+#service .container {
+  max-width: 1500px;
+  height: auto;
+  margin-bottom: 147px;
+  margin: auto;
+}
+#service .service-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  color: #000000;
+}
+#service .service-desc {
+  margin-top: 97px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  color: #7c7c7c;
+}
+#service .left {
+  width: 50%;
+  float: left;
+  margin-top: 147px;
+}
+#service .right {
+  width: 50%;
+  float: right;
+  margin-bottom: 147px;
+}
+
+#portfolio {
+  clear: both;
+}
 #portfolio .portfolio-item {
   max-width: 25rem;
   margin-left: auto;
