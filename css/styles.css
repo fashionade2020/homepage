@@ -10177,13 +10177,13 @@ header.masthead .demo-button {
   display: block;
   width: 161px;
   height: 56px;
-  background: url("./assets/img/demo_button_up.svg") no-repeat;
+  background: url("../assets/img/demo_button_up.svg") no-repeat;
   cursor: pointer;
   margin-left: 100px;
   margin-top: 85px;
 }
 header.masthead .demo-button:hover {
-  background: url("./assets/img/demo_button_down.svg") no-repeat;
+  background: url("../assets/img/demo_button_down.svg") no-repeat;
 }
 
 @media (min-width: 768px) {
