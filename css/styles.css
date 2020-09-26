@@ -10232,6 +10232,117 @@ header.masthead .demo-button:hover {
   margin-bottom: 147px;
 }
 
+#benefit {
+  clear: both;
+  background: #f7f7f7;
+}
+#benefit .center {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+#benefit .value {
+  font-family: Lato;
+  font-size: 58px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+#benefit .text {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  align-items: center;
+  text-align: center;
+  color: #999999;
+}
+
+@media (min-width: 992px) {
+  #benefit .center {
+    margin: 0;
+  }
+}
+#process .header {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 53px;
+  color: #4d4d4d;
+}
+#process .center {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+#process .center-bottom {
+  margin-bottom: 5rem;
+}
+#process .desc {
+  margin-top: 15px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #9a9a9a;
+}
+#process .process-icon {
+  float: left;
+  text-align: left;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+#process .process-text {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  color: #000000;
+}
+#process .process-box {
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+  padding: 23px;
+  margin-top: 129px;
+  width: 734px;
+  border: 1px solid #c9c9c9;
+  box-sizing: border-box;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 34px;
+  align-items: center;
+  color: #7c7c7c;
+}
+
+@media (min-width: 992px) {
+  #process .center {
+    margin: 0;
+  }
+}
+#partners .header {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 53px;
+  align-items: center;
+  text-align: center;
+  color: #4d4d4d;
+}
+#partners .box {
+  margin-top: 135px;
+  margin-bottom: 135px;
+}
+
 #portfolio {
   clear: both;
 }
