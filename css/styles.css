@@ -10139,8 +10139,6 @@ img::-moz-selection {
   }
 }
 header.masthead {
-  padding-top: 10.5rem;
-  padding-bottom: 6rem;
   text-align: center;
   color: #fff;
   background-image: url("../assets/img/header-bg.png");
@@ -10148,6 +10146,7 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  height: 600px;
 }
 header.masthead .container {
   margin: 0;
@@ -10185,17 +10184,50 @@ header.masthead .demo-button {
 header.masthead .demo-button:hover {
   background: url("../assets/img/demo_button_down.svg") no-repeat;
 }
+header.masthead .mobile {
+  display: none;
+}
+header.masthead .mobile-subheading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 38px;
+  padding-top: 130px;
+  color: #ffffff;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+}
+header.masthead .mobile-desc {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 14px;
+  margin-top: 16px;
+  text-align: center;
+  color: #ffffff;
+}
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 24.5rem;
-    padding-bottom: 20rem;
+    padding-top: 378px;
+    padding-bottom: 6rem;
+    height: 936px;
   }
   header.masthead .masthead-heading {
     font-size: 4.5rem;
     font-weight: 700;
     line-height: 4.5rem;
     margin-bottom: 4rem;
+  }
+  header.masthead .mobile {
+    display: block;
+  }
+  header.masthead .mobile-subheading {
+    display: none;
+  }
+  header.masthead .mobile-desc {
+    display: none;
   }
 }
 #service .container {
@@ -10225,6 +10257,12 @@ header.masthead .demo-button:hover {
   width: 100%;
   height: auto;
   display: block;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: #000000;
 }
 #service .mobile-img {
   margin-top: 20px;
@@ -10234,6 +10272,13 @@ header.masthead .demo-button:hover {
   width: 100%;
   height: auto;
   display: block;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
+  /* or 179% */
+  color: #7c7c7c;
 }
 #service .left {
   width: 50%;
@@ -10350,6 +10395,7 @@ header.masthead .demo-button:hover {
   color: #9a9a9a;
 }
 #process .process-icon {
+  display: none;
   float: left;
   text-align: left;
   margin-top: 15px;
@@ -10370,14 +10416,14 @@ header.masthead .demo-button:hover {
   vertical-align: middle;
   padding: 23px;
   margin-top: 129px;
-  width: 734px;
+  width: 100%;
   border: 1px solid #c9c9c9;
   box-sizing: border-box;
   font-family: Lato;
   font-style: normal;
   font-weight: 500;
-  font-size: 19px;
-  line-height: 34px;
+  font-size: 14px;
+  line-height: 30px;
   align-items: center;
   color: #7c7c7c;
 }
@@ -10385,6 +10431,30 @@ header.masthead .demo-button:hover {
 @media (min-width: 992px) {
   #process .center {
     margin: 0;
+  }
+  #process .process-icon {
+    display: block;
+    float: left;
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+  #process .process-box {
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    padding: 23px;
+    margin-top: 129px;
+    width: 734px;
+    border: 1px solid #c9c9c9;
+    box-sizing: border-box;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 34px;
+    align-items: center;
+    color: #7c7c7c;
   }
 }
 #partners .header {
@@ -10409,6 +10479,14 @@ header.masthead .demo-button:hover {
   margin-bottom: 5rem;
 }
 
+@media (min-width: 992px) {
+  #partners .center {
+    margin: 0;
+  }
+  #partners .center-bottom {
+    margin: 0;
+  }
+}
 #portfolio {
   clear: both;
 }
@@ -10688,7 +10766,7 @@ section#contact .header {
   margin-bottom: 130px;
 }
 section#contact .contact-width {
-  width: 734px;
+  width: 100%;
   margin: auto;
 }
 section#contact .title {
@@ -10766,6 +10844,12 @@ section#contact form#contactForm :-ms-input-placeholder {
   color: #ced4da;
 }
 
+@media (min-width: 992px) {
+  section#contact .contact-width {
+    width: 734px;
+    margin: auto;
+  }
+}
 .footer {
   text-align: center;
   font-size: 0.9rem;
@@ -10820,4 +10904,22 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 18px;
   line-height: 22px;
   color: #666666;
+}
+.footer .pc {
+  display: none;
+}
+.footer .mobile {
+  display: block;
+}
+.footer .half {
+  width: 50%;
+}
+
+@media (min-width: 992px) {
+  .footer .pc {
+    display: block;
+  }
+  .footer .mobile {
+    display: none;
+  }
 }
