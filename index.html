@@ -70,6 +70,28 @@
                     </div>
                 </div>
                 <div class="right"><img src="assets/img/service-graph.svg" /></div>
+                <div class="left-mobile">
+                    <div class="service-title">
+                        고객의 패션스타일을 실시간 예측해
+                        <br />
+                        자동화된
+                        <b>개인화 상품을 추천</b>
+                    </div>
+                    <div class="service-desc">
+                        패션에이드의 스타일 추천 솔루션은
+                        <br />
+                        고객 데이터에서 스타일
+                        <b>브랜드, 색상, 패턴 등의 고객 스타일</b>
+                        을 분석하고
+                        <br />
+                        상품 데이터의 최근 트렌드동향과 계절성을 고려한 개인 맞춤 상품 추천으로
+                        <br />
+                        고객에게 차별화된 상품 탐색 경험을 제공하고, 사이트의 충성고객이 되는
+                        <br />
+                        여정을 돕습니다.
+                    </div>
+                </div>
+                <div class="right-mobile"><img class="mobile-img" src="assets/img/service-graph.svg" /></div>
             </div>
         </section>
         <!-- Benefit-->
@@ -122,8 +144,8 @@
                 <div class="header text-uppercase">PARTNERS</div>
                 <div class="row box">
                     <div class="col-lg-3 col-sm-12 text-center"><img src="assets/img/kaist.svg" alt="" /></div>
-                    <div class="col-lg-3 col-sm-12 text-center"><img src="assets/img/styletech.svg" alt="" /></div>
-                    <div class="col-lg-3 col-sm-12 text-center"><img src="assets/img/fashionseoul.svg" alt="" /></div>
+                    <div class="col-lg-3 col-sm-12 text-center center"><img src="assets/img/styletech.svg" alt="" /></div>
+                    <div class="col-lg-3 col-sm-12 text-center center-bottom"><img src="assets/img/fashionseoul.svg" alt="" /></div>
                     <div class="col-lg-3 col-sm-12 text-center"><img src="assets/img/kidp.svg" alt="" /></div>
                 </div>
             </div>
@@ -131,53 +153,79 @@
         <!-- Contact-->
         <section class="page-section" id="contact">
             <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
+                <div class="header text-center">이메일 문의</div>
                 <form id="contactForm" name="sentMessage" novalidate="novalidate">
-                    <div class="row align-items-stretch mb-5">
-                        <div class="col-md-6">
+                    <div class="row align-items-stretch mb-5 contact-width">
+                        <div class="col-sm-12 title">
+                            담당자 성함
+                            <img class="rectangle" src="assets/img/rectangle.svg" alt="" />
+                        </div>
+                        <div class="col-sm-12">
                             <div class="form-group">
-                                <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name." />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="form-group">
-                                <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address." />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="form-group mb-md-0">
-                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number." />
+                                <input class="input form-control" id="name" type="text" required="required" data-validation-required-message="성함을 입력하세요." />
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-sm-12 title">
+                            E-MAIL
+                            <img class="rectangle" src="assets/img/rectangle.svg" alt="" />
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input class="input form-control" id="name" type="text" required="required" data-validation-required-message="이메일을 입력하세요." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 title">
+                            문의내용
+                            <img class="rectangle" src="assets/img/rectangle.svg" alt="" />
+                        </div>
+                        <div class="col-md-12">
                             <div class="form-group form-group-textarea mb-md-0">
-                                <textarea class="form-control" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
+                                <textarea class="form-control" id="message" placeholder="문의 내용을 작성해 주시면 빠른 시일내에 답변드리겠습니다." required="required" data-validation-required-message="문의 내용을 입력하세요."></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                     </div>
                     <div class="text-center">
                         <div id="success"></div>
-                        <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Send Message</button>
+                        <button class="submit-button btn" id="sendMessageButton" type="submit">보내기</button>
                     </div>
                 </form>
             </div>
         </section>
         <!-- Footer-->
-        <footer class="footer py-4">
+        <footer class="footer py-5 bg-light">
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-left">Copyright © Your Website 2020</div>
-                    <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                <div class="row">
+                    <div class="col-lg-3 col-sm-12 text-lg-left">
+                        <img src="assets/img/logo.svg" alt="" />
+                        <div class="copyright">
+                            © Copyright 2020 FASHIONADE
+                            <br />
+                            All rights reserved.
+                        </div>
                     </div>
-                    <div class="col-lg-4 text-lg-right">
-                        <a class="mr-3" href="#!">Privacy Policy</a>
-                        <a href="#!">Terms of Use</a>
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="title text-center">COMPANY</div>
+                        <div class="company-menu text-center">MAIN</div>
+                        <div class="company-menu text-center">SERVICE</div>
+                        <div class="company-menu text-center">PROCESS</div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="title text-left">FOLLOW US</div>
+                        <div class="text-left">
+                            <img src="assets/img/instagram.svg" />
+                            <img class="img-margin" src="assets/img/kakao.svg" />
+                            <img src="assets/img/naver.svg" />
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12 text-left">
+                        <div class="title">CONTACT</div>
+                        <div class="text-left">
+                            <a href="mailto:partner@fashionade.ai" class="email">Partner@fashionade.ai</a>
+                            <div class="address">서울특별시 동대문구 회기로85, KAIST 9413</div>
+                        </div>
                     </div>
                 </div>
             </div>

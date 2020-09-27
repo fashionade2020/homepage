@@ -10208,7 +10208,7 @@ header.masthead .demo-button:hover {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 47px;
   color: #000000;
 }
@@ -10217,21 +10217,80 @@ header.masthead .demo-button:hover {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 16px;
   line-height: 38px;
   color: #7c7c7c;
+}
+#service .left-mobile {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+#service .mobile-img {
+  margin-top: 20px;
+  width: 100%;
+}
+#service .right-mobile {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 #service .left {
   width: 50%;
   float: left;
+  display: none;
   margin-top: 147px;
 }
 #service .right {
   width: 50%;
   float: right;
+  display: none;
   margin-bottom: 147px;
 }
 
+@media (min-width: 992px) {
+  #service .container {
+    max-width: 1500px;
+    height: auto;
+    margin-bottom: 147px;
+    margin: auto;
+  }
+  #service .service-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 47px;
+    color: #000000;
+  }
+  #service .service-desc {
+    margin-top: 97px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 38px;
+    color: #7c7c7c;
+  }
+  #service .left-mobile {
+    display: none;
+  }
+  #service .right-mobile {
+    display: none;
+  }
+  #service .left {
+    width: 50%;
+    float: left;
+    display: block;
+    margin-top: 147px;
+  }
+  #service .right {
+    width: 50%;
+    float: right;
+    display: block;
+    margin-bottom: 147px;
+  }
+}
 #benefit {
   clear: both;
   background: #f7f7f7;
@@ -10341,6 +10400,13 @@ header.masthead .demo-button:hover {
 #partners .box {
   margin-top: 135px;
   margin-bottom: 135px;
+}
+#partners .center {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+#partners .center-bottom {
+  margin-bottom: 5rem;
 }
 
 #portfolio {
@@ -10611,14 +10677,49 @@ header.masthead .demo-button:hover {
   margin-bottom: 0;
 }
 
-section#contact {
-  background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
-  background-repeat: no-repeat;
-  background-position: center;
+section#contact .header {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 53px;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 130px;
 }
-section#contact .section-heading {
-  color: #fff;
+section#contact .contact-width {
+  width: 734px;
+  margin: auto;
+}
+section#contact .title {
+  margin-top: 50px;
+  margin-bottom: 15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+section#contact .input {
+  border: 0px;
+  border-bottom: 1px solid #cfcfcf;
+}
+section#contact .submit-button {
+  width: 275px;
+  height: 56px;
+  left: 831px;
+  top: 927px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 28px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+  text-align: center;
+  color: white;
 }
 section#contact form#contactForm .form-group {
   margin-bottom: 1.5rem;
@@ -10669,4 +10770,54 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.footer .copyright {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #666666;
+  margin-top: 25px;
+}
+.footer .title {
+  margin-bottom: 23px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+}
+.footer .img-margin {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.footer .email {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #666666 !important;
+}
+.footer .address {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #666666;
+}
+.footer .rectangle {
+  margin-left: 7px;
+}
+.footer .company-menu {
+  margin-top: 10px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #666666;
 }
