@@ -10081,7 +10081,7 @@ img::-moz-selection {
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: Lato;
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
@@ -10093,7 +10093,7 @@ img::-moz-selection {
   text-align: center;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   font-weight: 800;
 }
 #mainNav .contact-button {
@@ -10214,7 +10214,7 @@ header.masthead .mobile {
 header.masthead .mobile-subheading {
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
   font-family: Roboto;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -10225,7 +10225,7 @@ header.masthead .mobile-subheading {
 }
 header.masthead .mobile-desc {
   font-family: Roboto;
-  font-size: 0.688rem;
+  font-size: 1rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -10240,7 +10240,7 @@ header.masthead .mobile-demo-button {
   display: block;
   cursor: pointer;
   margin: auto;
-  margin-top: 23.314rem;
+  margin-top: 28.314rem;
 }
 
 @media (min-width: 768px) {
@@ -10483,11 +10483,7 @@ header.masthead .mobile-demo-button {
   margin-bottom: 5rem;
 }
 #process .process-icon {
-  display: none;
-  float: left;
-  text-align: left;
-  margin-top: 15px;
-  margin-left: 10px;
+  margin-bottom: 1.6rem;
 }
 #process .process-text {
   padding: 0;
@@ -10504,18 +10500,31 @@ header.masthead .mobile-demo-button {
   margin: auto;
   text-align: center;
   vertical-align: middle;
-  padding: 23px;
-  margin-top: 129px;
+  padding: 1.6rem;
+  margin: 1.438rem;
   width: 100%;
   border: 1px solid #c9c9c9;
   box-sizing: border-box;
   font-family: Lato;
-  font-style: normal;
+  font-size: 1rem;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 30px;
-  align-items: center;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
   color: #7c7c7c;
+}
+#process .process-mobile-text {
+  font-family: Lato;
+  font-size: 1rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
 }
 #process .mobile {
   display: block;
@@ -10907,7 +10916,7 @@ section#contact .submit-button {
   height: 2.813rem;
   left: 831px;
   top: 927px;
-  background: rgba(0, 0, 0, 0.6);
+  background-color: #00bcc8;
   border-radius: 28px;
   font-family: Roboto;
   font-style: normal;
@@ -10919,7 +10928,7 @@ section#contact .submit-button {
   color: white;
 }
 section#contact .submit-button:hover {
-  background-color: #00bcc8;
+  background: rgba(0, 0, 0, 0.6);
 }
 section#contact form#contactForm .form-group {
   margin-bottom: 1.5rem;
@@ -10970,6 +10979,25 @@ section#contact form#contactForm :-ms-input-placeholder {
   section#contact .contact-width {
     width: 734px;
     margin: auto;
+  }
+  section#contact .submit-button {
+    width: 10.938rem;
+    height: 2.813rem;
+    left: 831px;
+    top: 927px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 28px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  section#contact .submit-button:hover {
+    background-color: #00bcc8;
   }
 }
 .footer {
