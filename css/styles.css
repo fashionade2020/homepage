@@ -10105,6 +10105,9 @@ img::-moz-selection {
 #mainNav .mobile {
   display: none;
 }
+#mainNav .pc {
+  display: block;
+}
 
 @media (min-width: 992px) {
   #mainNav {
@@ -10157,6 +10160,9 @@ img::-moz-selection {
   }
   #mainNav #navbarResponsive {
     padding-right: 0;
+  }
+  #mainNav .pc {
+    display: none;
   }
 }
 header.masthead {
@@ -10597,11 +10603,11 @@ header.masthead .mobile-demo-button {
   margin-bottom: 135px;
 }
 #partners .center {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 6.5rem;
+  margin-bottom: 6.5rem;
 }
 #partners .center-bottom {
-  margin-bottom: 5rem;
+  margin-bottom: 6.5rem;
 }
 
 @media (min-width: 992px) {
