@@ -14,6 +14,7 @@
         <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css2?family=Lato&amp;display=swap" rel="stylesheet" type="text/css" />
+        <link href="https://nowonbun.github.io/Loader/loader.css" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
@@ -209,7 +210,7 @@
                         </div>
                         <div class="col-md-12">
                             <div class="form-group">
-                                <input class="input form-control" id="name" type="text" required="required" data-validation-required-message="이메일을 입력하세요." />
+                                <input class="input form-control" id="email" type="text" required="required" data-validation-required-message="이메일을 입력하세요." />
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
@@ -229,6 +230,16 @@
                         <button class="submit-button btn" id="sendMessageButton" type="submit">보내기</button>
                     </div>
                 </form>
+            </div>
+            <div class="success-form" id="success-form">
+                <img src="assets/img/success_icon.svg" style="margin-top: 70px;" />
+                <p style="margin-top: 57px;"><b>문의가 성공적으로 등록되었습니다.</b></p>
+                <p style="color: #7c7c7c;">
+                    빠른시일내에 답변드리겠습니다.
+                    <br />
+                    감사합니다.
+                </p>
+                <a id="success-ok" style="cursor: pointer;"><img src="assets/img/success_confirm.svg" style="margin-top: 70px;" /></a>
             </div>
         </section>
         <!-- Footer-->
@@ -309,6 +320,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
         <!-- Third party plugin JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <script src="https://nowonbun.github.io/Loader/loader.js"></script>
         <!-- Contact form JS-->
         <script src="assets/mail/jqBootstrapValidation.js"></script>
         <script src="assets/mail/contact_me.js"></script>

@@ -10980,6 +10980,17 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-weight: 700;
   color: #ced4da;
 }
+section#contact .success-form {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  text-align: center;
+  display: none;
+  z-index: 10000;
+}
 
 @media (min-width: 992px) {
   section#contact .contact-width {
@@ -11004,6 +11015,19 @@ section#contact form#contactForm :-ms-input-placeholder {
   }
   section#contact .submit-button:hover {
     background-color: #00bcc8;
+  }
+  section#contact .success-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -252px;
+    margin-top: -231px;
+    width: 504px;
+    height: 462px;
+    background-color: #fff;
+    text-align: center;
+    display: none;
+    z-index: 10000;
   }
 }
 .footer {
